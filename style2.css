@@ -1,0 +1,58 @@
+body {
+    background-color: #212529;
+    font-family: 'Open Sans', sans-serif
+}
+
+.form-inline {
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+}
+
+h5 {
+    color: white;
+    margin: auto;
+    font-weight: 800;
+    margin-bottom: 1em;
+    margin-top: 2.4em;
+    margin-left: 5.3em;
+}
+
+#inputPassword2 {
+    width: 20em;
+    height: 3em;
+    border-radius: 0;
+}
+
+.btn {
+    height: 3em;
+    border-radius: 0;
+    background-color: #0085a1;
+    border-color: #0085a1;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #0085a1;
+    border-color: #0085a1;
+}
+
+.buttontext {
+    font-weight: 900;
+    color: rgb(201, 201, 201);
+}
+
+.form-control:focus {
+    border-color: #0085a1;
+    
+}
+
+h6 {
+    font-weight: 900;
+    color: grey;
+    margin-left: 1em;
+}

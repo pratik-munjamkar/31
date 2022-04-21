@@ -1,0 +1,153 @@
+body {
+    font-family: 'Open Sans', sans-serif
+    
+    
+}
+
+.header  {
+    height: 92vh;
+    background-image: url("https://sb-clean-blog.startbootstrap.com/assets/img/home-bg.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 0.5em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#brand {
+    font-weight: 900;
+    font-size:x-large
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+    font-weight: 900;
+    font-size: small;
+    padding-left: 2em;;
+}
+
+.nav-elements {
+    padding: 12px;
+}
+
+.navbar-toggler {
+    width: 4em;
+}
+
+h1 {
+    /* text-align: center; */
+    font-weight: 900;
+    font-size: 5em;
+    margin-top: 2.2em;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+.btn {
+    position: fixed;
+    right: 0px;
+    top: 110px;
+    background-color: white;
+    border-radius: 0;
+    border-color: #0085a1;
+    color:#0085a1;
+    padding-top: 6px;
+       
+}
+
+button {
+    width: 10em;
+    height: 2.5em;
+    
+}
+
+.buttontext {
+    font-size: 0.7em;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #0085a1;
+    border-color: #0085a1;
+}
+
+/* hero area */
+
+.hero-bg {
+    background-color: white;
+    padding-top: 4.4em;
+
+}
+
+.hero {
+    width:60%;
+}
+
+h3 {
+    font-weight: 1000;
+    font-size: 2.1em;
+}
+
+.hero-p {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+}
+
+h3:hover,.hero-p:hover {
+    color: #0085a1;
+}
+
+.hero-i {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #868e96;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+
+.flexbox-container {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.last-date {
+    padding-bottom: 1em;
+}
+.facebook-icon {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.footer-p {
+    text-align: center;
+    color: #868e96; 
+    font-family: 'lora';
+    font-size: 0.8em;
+    margin-top: 3em;
+}
+
+/* @media screen and (max-width: 915px) {
+    .hero {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 888px) {
+    .hero {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 823px) {
+    .hero {
+        width: 75%;
+    }
+} */
